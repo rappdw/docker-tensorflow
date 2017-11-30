@@ -1,0 +1,4 @@
+# NVIDIA_VISIBLE_DEVICES should also be set in the env if GPUs are available
+# consider using this env variable to source the environment
+CPU_GPU_ENV=${CPU_GPU_ENV:-"/cpu-env"}
+source $CPU_GPU_ENV
